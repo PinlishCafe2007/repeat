@@ -1,2 +1,19 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<nav>
+    <p class="name">CALCULATOR</p>
+    <div class="calc">
+
+    </div>
+</nav>
+
+<style>
+    .calc{
+        border: 2px solid black;
+        width: 20%;
+        height: 100px;
+        margin-left: 38%;
+    }
+    .name{
+        margin-left: 44%;
+        margin-top: 10%;
+    }
+</style>
